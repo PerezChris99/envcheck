@@ -2,6 +2,7 @@
 
 `envcheck` is a Node.js package that loads environment variables from a `.env` file and validates them against a defined schema. It supports type checking, default values, and produces clear error messages if variables are missing or malformed.
 
+
 ## Installation
 
 ```bash
@@ -45,6 +46,8 @@ envcheck(envSchema);
 
 - `schema` - A Joi schema object defining the expected environment variables.
 
-## License
+## Badges
 
-MIT
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+
